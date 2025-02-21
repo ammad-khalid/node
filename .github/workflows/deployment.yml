@@ -6,7 +6,7 @@ on:
       - main
 env:
   ECR_REPOSITORY: node
-  ECR_REGISTRY: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-1.amazonaws.com
+  ECR_REGISTRY: ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.us-east-2.amazonaws.com
   DEPLOYMENT_NAME: node
   NAMESPACE: node
   PROJECT: node
